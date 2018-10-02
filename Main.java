@@ -10,7 +10,7 @@ public class Main {
 		input.nextLine();
 		System.out.print("Input width: ");
 		double width = input.nextDouble();
-		input.close();
+		input.nextLine();
 		
 		double area = length * width;
 		double perimeter = 2 * length + 2 * width;
